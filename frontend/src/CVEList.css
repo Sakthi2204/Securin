@@ -1,0 +1,47 @@
+.App {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .tableContainer {
+    margin-bottom: 20px;
+  }
+  
+  .cveTable {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .cveTable th, .cveTable td {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  .tableFooter {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .totalrec{
+    float: left;
+  }
+  .perPageContainer {
+    text-align: left;
+  }
+  
+  .paginationContainer {
+    text-align: right;
+    flex-grow: 1; /* Allow pagination to occupy remaining space */
+  }
+  
+  .pagination {
+    display: flex;
+    justify-content: flex-end; /* Align elements to the right */
+  }
+  
+  button {
+    padding: 8px 16px;
+    margin: 0 5px;
+  }

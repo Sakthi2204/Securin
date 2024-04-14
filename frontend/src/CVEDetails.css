@@ -1,0 +1,28 @@
+
+h1,h3,h5,p{
+    text-align: left;
+}
+
+.cve-details-container {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+  }
+  
+  .cve-details-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .cve-details-table th,
+  .cve-details-table td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .cve-details-table th {
+    background-color: #f2f2f2;
+  }
+  
+  
